@@ -1,5 +1,6 @@
 package org.example.fitnessapp;
 
+import org.example.fitnessapp.Utility.DBUtility;
 import javafx.application.Application; // Importing JavaFX Application class
 import javafx.fxml.FXMLLoader; // Importing class for loading FXML files
 import javafx.scene.Scene; // Importing class for creating a scene

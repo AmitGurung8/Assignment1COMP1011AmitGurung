@@ -1,9 +1,8 @@
 package org.example.fitnessapp.Controllers;
 
+import org.example.fitnessapp.Utility.DBUtility;
 import javafx.fxml.FXML; // Importing FXML for annotating UI elements
-import javafx.fxml.FXMLLoader; // Importing class for loading FXML files
 import javafx.fxml.Initializable; // Importing interface for initializing controllers
-import javafx.scene.Scene; // Importing class for creating a scene
 import javafx.scene.chart.CategoryAxis; // Importing class for category axis in charts
 import javafx.scene.chart.NumberAxis; // Importing class for number axis in charts
 import javafx.scene.chart.BarChart; // Importing class for bar charts
@@ -91,21 +90,21 @@ public class Fit implements Initializable {
     // Method to update the chart for push exercises
     private void updateChartForPush() {
         BarChartFitness.getData().clear(); // Clearing existing data
-        BarChartFitness.getData().add(org.example.fitnessapp.DBUtility.getPushCaloriesBurned()); // Adding new data
+        BarChartFitness.getData().add(DBUtility.getPushCaloriesBurned()); // Adding new data
         Namee.setLabel("Push Exercises"); // Setting axis label
     }
 
     // Method to update the chart for pull exercises
     private void updateChartForPull() {
         BarChartFitness.getData().clear(); // Clearing existing data
-        BarChartFitness.getData().add(org.example.fitnessapp.DBUtility.getPullCaloriesBurned()); // Adding new data
+        BarChartFitness.getData().add(DBUtility.getPullCaloriesBurned()); // Adding new data
         Namee.setLabel("Pull Exercises"); // Setting axis label
     }
 
     // Method to update the chart for legs exercises
     private void updateChartForLegs() {
         BarChartFitness.getData().clear(); // Clearing existing data
-        BarChartFitness.getData().add(org.example.fitnessapp.DBUtility.getLegsCaloriesBurned()); // Adding new data
+        BarChartFitness.getData().add(DBUtility.getLegsCaloriesBurned()); // Adding new data
         Namee.setLabel("Leg Exercises"); // Setting axis label
     }
 }

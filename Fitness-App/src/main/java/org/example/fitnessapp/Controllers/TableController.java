@@ -2,7 +2,6 @@ package org.example.fitnessapp.Controllers;
 
 import javafx.event.ActionEvent; // Importing class for handling action events
 import javafx.fxml.FXML; // Importing FXML for annotating UI elements
-import javafx.scene.Scene; // Importing class for creating a scene
 import javafx.scene.control.RadioButton; // Importing class for radio buttons
 import javafx.scene.control.TableColumn; // Importing class for table columns
 import javafx.scene.control.TableView; // Importing class for table view
@@ -16,6 +15,10 @@ import java.sql.Statement; // Importing class for SQL statements
 import java.util.ArrayList; // Importing class for dynamic arrays
 import java.util.List; // Importing class for lists
 import org.example.fitnessapp.*; // Importing all classes from the fitness app package
+import org.example.fitnessapp.Models.Exercise;
+import org.example.fitnessapp.Models.Legs;
+import org.example.fitnessapp.Models.Pull;
+import org.example.fitnessapp.Models.Push;
 
 public class TableController {
 

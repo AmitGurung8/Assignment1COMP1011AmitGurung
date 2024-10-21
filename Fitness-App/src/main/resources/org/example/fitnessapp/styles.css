@@ -1,0 +1,58 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.root {
+    -fx-background-color: #f4f4f4; /* Light background color */
+    -fx-font-family: 'Roboto', sans-serif; /* Font family */
+}
+
+.header-label {
+    -fx-text-fill: #2c3e50; /* Dark text color */
+    -fx-font-size: 33px; /* Font size for the header */
+    -fx-font-weight: bold; /* Bold font for header */
+}
+
+.radio-button {
+    -fx-font-size: 16px; /* Font size for radio buttons */
+    -fx-text-fill: #34495e; /* Text color for radio buttons */
+    -fx-padding: 10px; /* Padding for radio buttons */
+}
+
+.action-button {
+    -fx-background-color: #3498db; /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+    -fx-font-size: 16px; /* Font size for buttons */
+    -fx-padding: 10px; /* Padding for buttons */
+    -fx-background-radius: 5px; /* Rounded corners */
+}
+
+.action-button:hover {
+    -fx-background-color: #2980b9; /* Darker shade on hover */
+}
+
+.table-view {
+    -fx-background-color: white; /* White background for table */
+    -fx-border-color: #bdc3c7; /* Border color */
+    -fx-border-width: 1; /* Border width */
+}
+
+.table-view .table-header {
+    -fx-background-color: #ecf0f1; /* Header background */
+}
+
+.table-column {
+    -fx-text-fill: #2c3e50; /* Column text color */
+}
+
+.hbox {
+    -fx-spacing: 10; /* Spacing between items in HBox */
+}
+
+.vbox {
+    -fx-spacing: 20; /* Spacing between items in VBox */
+}
+
+.bar-chart .chart-plot-background {
+    -fx-background-color: #ecf0f1; /* Background for the chart */
+}

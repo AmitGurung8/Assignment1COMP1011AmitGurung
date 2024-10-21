@@ -1,0 +1,48 @@
+/* styles2.css */
+
+.root {
+    -fx-background-color: #f0f8ff; /* Light blue background */
+}
+
+.label {
+    -fx-text-fill: #2e8b57; /* Forest green text */
+}
+
+.table-view {
+    -fx-background-color: #ffffff; /* White background for the table */
+    -fx-border-color: #2e8b57; /* Forest green border */
+    -fx-border-width: 2;
+}
+
+.table-view .table-column-header {
+    -fx-background-color: #2e8b57; /* Forest green header */
+    -fx-text-fill: #ffffff; /* White text for header */
+}
+
+.table-view .table-row {
+    -fx-background-color: #f0f8ff; /* Light blue for rows */
+}
+
+.table-view .table-row:selected {
+    -fx-background-color: #2e8b57; /* Forest green when selected */
+    -fx-text-fill: #ffffff; /* White text when selected */
+}
+
+.button {
+    -fx-background-color: #2e8b57; /* Forest green buttons */
+    -fx-text-fill: #ffffff; /* White text for buttons */
+    -fx-font-size: 14px; /* Font size for buttons */
+    -fx-padding: 10px 20px; /* Padding for buttons */
+}
+
+.button:hover {
+    -fx-background-color: #3cb371; /* Medium sea green on hover */
+}
+
+.radio-button {
+    -fx-text-fill: #2e8b57; /* Forest green text for radio buttons */
+}
+
+.radio-button:selected {
+    -fx-text-fill: #3cb371; /* Medium sea green when selected */
+}
